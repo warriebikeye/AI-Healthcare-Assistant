@@ -1,7 +1,7 @@
 import { initializeAgentExecutorWithOptions } from "langchain/agents";
-import { gemini } from "../utils/llm.ts";
-import { CarePlanTool } from "../tools/carePlanTool.ts";
-import { ResearchTool } from "../tools/researchTool.ts";
+import { gemini } from "../utils/llm";
+import { CarePlanTool } from "../tools/carePlanTool";
+import { ResearchTool } from "../tools/researchTool";
 
 export class ResearchAgent {
   async handleQuery(query: string): Promise<string> {

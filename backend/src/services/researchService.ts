@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import { ResearchAgent } from "../agents/ResearchAgent.ts";
+import { ResearchAgent } from "../agents/ResearchAgent";
 
 export const researchHandler = async (req: Request, res: Response): Promise<void> => {
   try {

@@ -1,10 +1,10 @@
 import axios from "axios";
-import { ResearchTool } from "../tools/researchTool.ts";
-import { CarePlanTool } from "../tools/carePlanTool.ts";
+import { ResearchTool } from "../tools/researchTool";
+import { CarePlanTool } from "../tools/carePlanTool";
 import { MongoDBChatMessageHistory } from "@langchain/community/stores/message/mongodb";
 import { BufferMemory } from "langchain/memory";
 import { AIMessage, HumanMessage } from "@langchain/core/messages";
-import { getChatHistoryCollection } from "../utils/mongo.ts";
+import { getChatHistoryCollection } from "../utils/mongo";
 
 import dotenv from "dotenv";
 

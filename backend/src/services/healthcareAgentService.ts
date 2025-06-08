@@ -1,6 +1,6 @@
 import type { Request, Response } from "express";
 import { v4 as uuidv4 } from "uuid";
-import { handleHealthcareQuery } from "../agents/HealthCareAgent.ts";
+import { handleHealthcareQuery } from "../agents/HealthCareAgent";
 
 //const agent = new handleHealthcareQuery(); // singleton agent
 
